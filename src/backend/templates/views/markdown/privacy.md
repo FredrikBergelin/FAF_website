@@ -4,7 +4,7 @@
 </a>
 
 <a href="/privacy-ru">
-<button> Privacy Pусский </button>
+<button> Privacy Русский </button>
 </a>
 </div>
 

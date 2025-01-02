@@ -3,12 +3,14 @@ const showdown = require('showdown')
 const fs = require('fs')
 const router = express.Router()
 
-function markdown(template) {
+// second argument containerClass can be used to inject a class, for page specific styling
+function markdown(template, containerClass = '') {
     return (req, res) => {
         res.render('markdown', {
             content: new showdown.Converter().makeHtml(
                 fs.readFileSync(template, 'utf-8')
             ),
+            containerClass,
         })
     }
 }
@@ -36,5 +38,9 @@ router.get(
 )
 router.get('/rules', markdown('src/backend/templates/views/markdown/rules.md'))
 router.get('/cg', markdown('src/backend/templates/views/markdown/cg.md'))
+router.get(
+    '/moderation',
+    markdown('src/backend/templates/views/markdown/moderation.md')
+)
 
 module.exports = router
