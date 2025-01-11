@@ -140,8 +140,11 @@ Understand that an appeal is a chance to convince the moderation team that theyâ
 
 ## **Frequently asked questions**
 
+<button onclick="expandAllFAQ()">Expand All</button>
+<button onclick="collapseAllFAQ()">Collapse All</button>
+
 <details>
-  <summary>**How do I know what I have been banned for, and how long my ban will last?**</summary>
+  <summary>How do I know what I have been banned for, and how long my ban will last?</summary>
   * Upon logging into the FAF client, banned players will be shown a message that will state when their ban expires in the UTC time zone, the length of their ban, the reason for why they were banned, and the replayID of the game that led to the ban (if applicable).
 </details>
 
@@ -209,3 +212,13 @@ Understand that an appeal is a chance to convince the moderation team that theyâ
   <summary>I have been banned for smurfing, but I do not own a second account. What do I do?</summary>
   * Contact the moderation team through the moderation support ticket system. It is possible that our smurf-detection systems have wrongly identified you, and if that is the case weâ€™ll do our best to clear it up quickly.
 </details>
+
+<script>
+  function expandAllFAQ() {
+    document.querySelectorAll("details").forEach(detail => detail.open = true);
+  }
+
+  function collapseAllFAQ() {
+    document.querySelectorAll("details").forEach(detail => detail.open = false);
+  }
+</script>
