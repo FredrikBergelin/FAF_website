@@ -150,7 +150,7 @@ What should I do when I believe my ban is unfair?
 
 Why was my report dismissed?
 
-* Reports may get dismissed if they miss critical information (such as a clear description, a replayID, or an accurate timestamp), if the reported offense was found to have occurred, or if they are malicious.
+* Reports may get dismissed if they miss critical information (such as a clear description, a replayID, or an accurate timestamp), if the reported offense was found not to have occurred, or if the report is malicious.
 
 Why is my ban much longer than another player’s, even though they committed the same offense?
 
@@ -158,7 +158,7 @@ Why is my ban much longer than another player’s, even though they committed th
 
 Why was I banned for more than a few days even though this was my first offense?
 
-* Some offenses, such as severe verbal abuse or abusing bugs may result in more severe penalties. The moderation team has the final say over what qualifies as an appropriate sanction.
+* Some offenses, such as severe verbal abuse or abusing bugs, may result in more severe penalties. The moderation team has the final say over what qualifies as an appropriate penalty.
 
 Does reporting a player guarantee that they will be penalized?
 
@@ -174,7 +174,7 @@ Will I be penalized for accidentally killing a team member?
 
 I reclaimed engineers from my teammates, because they were taking my reclaim/mass extractor spots. Why was I banned?
 
-* Reclaiming allied units is not accepted. Additionally, the FAF Code of Conduct explicitly explains that there are no ‘reserved’ reclaim patches or mass extractor spots. We recommend you discuss the assignment of reclaim or mexes with your team.
+* Reclaiming allied units is not accepted, even in response to a teammate reclaiming your units. Additionally, the FAF Code of Conduct explicitly explains that there are no ‘reserved’ reclaim patches or mass extractor spots; if you have not yet built a mass extractor, you have no claim to that mass spot. We recommend you discuss the assignment of reclaim or mexes with your team.
 
 I reported my teammate for taking all the available mass extractors. Why was my report dismissed?
 
